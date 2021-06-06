@@ -1,0 +1,8 @@
+butcher_shop/test/services/BasketServiceTest.java
+ butcher_shop.test.services.BasketServiceTest
+butcher_shop/test/services/UserServiceTest.java
+ butcher_shop.test.services.UserServiceTest
+butcher_shop/test/MainTest.java
+ butcher_shop.test.MainTest
+butcher_shop/test/services/MeatServiceTest.java
+ butcher_shop.test.services.MeatServiceTest
