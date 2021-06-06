@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ru">
+<link rel="icon" href="images/book.ico">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<head>
+    <title>О нас</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div style="float: right; width: 49%; margin-top: 20px">
+    <img src="/img/profile.jpg" height="383" width="576">
+</div>
+<p style="margin-left: 20px; margin-top: 20px; font-size: 45px" >
+    <b>О компании Мясной домик</b>
+</p>
+<p style="margin-left: 20px; font-size: 16px">
+    Более 8 лет мы продаем мясо и мясные полуфабрикаты
+<br>по Москве и Красногорску в розницу и оптом. Мы поставляем высококачественное
+<br>натуральное фермерское мясо, которое можно смело назвать экологически чистым.
+</p>
+<p style="margin-left: 20px; font-size: 16px">
+    Мы сотрудничаем только с малыми и средними фермерскими хозяйствами
+    <br>из Воронежской, Тамбовской, Липецкой и Московской областей,
+    <br>а также Краснодарского края и Республики Дагестан. У каждого фермера,
+    <br>есть обязательные сертификаты на его продукцию.</p>
+<p style="margin-left: 20px; font-size: 16px">
+    Основным преимуществом собственной кормовой базы является то,
+    <br>что животные получают только натуральные корма, при выращивании,
+    <br>уборке и обработке которых не используется химия. Каждый день
+    <br>нам поставляют свежее мясо исключительно молодых животных, которое наши
+    <br>мясники профессионально разделывают.
+</p>
+<p>
+<div style="float: left; width: 49%; margin-left: 20px">
+    <p style="font-size: 36px">
+        <img src="/img/cow.png"height="100" width="100"><b>Говядина</b>
+    </p>Молодая говядина производится на базе
+    <br>нашего собственного возобновляемого стада
+    <br>численностью более 100 голов.
+    <br>Используются только натуральные корма
+    <br>для животных - пшеница, ячмень, овес,
+    <br>которые не знакомы с гербицидами и
+    <br>удобрениями. Все выращивается на
+    <br>собственной земле, что гарантирует
+    <br>высокое качество мяса для вас - наших
+    <br>покупателей.
+</div>
+<div style="float: right; width: 49%;">
+    <p style="font-size: 36px">
+        <img src="/img/sheep.png"height="100" width="100"><b>Баранина</b>
+    </p>
+    Мы владеем собственным возобновляемым
+    <br> стадом с более чем 2-х тысячным поголовьем и
+    <br>используем только молодых животных (ягнят)
+    <br>возрастом 6-8 месяцев. Натуральный травяной
+    <br>откорм, кристально чистая вода и раздолье
+    <br> бесснежной степи даже зимой - всё это создает
+    <br>идеальные условия для разведения нашей
+    <br>калмыцкой баранины.
+</div>
+</p>
+<p>
+    <div style="float: left; width: 49%; margin-left: 20px">
+<p style="font-size: 36px">
+    <img src="/img/pig.png"height="100" width="100"><b>Свинина</b>
+</p>
+        Частные хозяйства по разведению беконной
+    <br>породы свиней в Курской, Белгородской и
+    <br>Рязанской областях.
+
+</div>
+<div style="float: right; width: 49%;">
+    <p style="font-size: 36px">
+        <img src="/img/chicken.png"height="100" width="100"><b>Птица</b>
+    </p>Поставляется нам из домашних хозяйств
+    <br>солнечного Краснодарского края, а также
+    <br>из Ленинградской области.
+</div>
+</p>
+<div class="clear">
+</body>
+</html>
